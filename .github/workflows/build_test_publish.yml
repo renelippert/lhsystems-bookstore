@@ -2,6 +2,7 @@ name: Build - Test - Publish
 
 on:
   push:
+  workflow_dispatch:
 
 # The name of the `Build (ubuntu 20.04, 11)` build is used as a required context inside the repository on protected
 #  branches configuration. Any changes to the OS or Java version will need to be reflected in repository settings.
