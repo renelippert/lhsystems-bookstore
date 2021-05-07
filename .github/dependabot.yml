@@ -13,11 +13,11 @@ updates:
     directory: "/"
     schedule:
       # Check for updates to GitHub Actions every week
-      interval: "weekly"
+      interval: "daily"
 
   # Set update schedule for Terraform
   - package-ecosystem: "terraform"
     directory: "/"
     schedule:
       # Check for updates to Terraform every month
-      interval: "monthly"
+      interval: "daily"
